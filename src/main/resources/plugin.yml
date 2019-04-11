@@ -1,0 +1,31 @@
+name: DontAtMeSis
+main: xyz.xpulse.DontAtMeSis.DontAtMeSis
+version: 1.0.0
+description: An @player listener and pinger!
+author: e3ndr
+
+commands:
+  dams:
+    description: Gets the about information.
+    usage: /<command>
+    aliases: [DontAtMeSis]
+
+permissions:
+  DontAtMeSis.ping:
+     description: Determines if a player can ping another player.
+     default: true
+  DontAtMeSis.ping.admin:
+     description: Determines if a player can ping anyone who is opped or has \'DontAtMeSis.admin\'.
+     default: true
+  DontAtMeSis.admin:
+     description: Marks the player as admin, used for DontAtMeSis.ping.admin, also gives access to all other permissions and \"/dams reload\"
+     default: true
+     children:
+        DontAtMeSis.ping: true
+        DontAtMeSis.ping.admin: true
+  DontAtMeSis.ping.*:
+     description: Gives access to all DontAtMeSis permissions excluding DontAtMeSis.admin
+     children:
+        DontAtMeSis.ping: true
+        DontAtMeSis.ping.admin: true
+      

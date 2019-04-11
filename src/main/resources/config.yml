@@ -1,0 +1,8 @@
+# Supports bukkit color codes: https://wiki.ess3.net/mc/
+highlight: '&7&l@'
+# Supports 1.13 sounds but theoretically will work on older versions,
+#   Check out everything under "Enum Constants" at https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+sound: ENTITY_ARROW_HIT_PLAYER
+sound-pitch: '1'
+# Not implemented yet.
+use-display-names: 'true'
