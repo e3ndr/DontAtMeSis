@@ -1,0 +1,15 @@
+
+target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+target/maven-archiver/pom.properties
+target/DontAtMeSis-1.0.0.jar
+target/classes/xyz/xpulse/DontAtMeSis/EventListener.class
+target/classes/xyz/xpulse/DontAtMeSis/DontAtMeSis.class
+target/classes/xyz/xpulse/DontAtMeSis/Config.class
+target/classes/xyz/xpulse/DontAtMeSis/CommandDAMS.class
+target/classes/plugin.yml
+target/classes/config.yml
+.settings/org.eclipse.m2e.core.prefs
+.settings/org.eclipse.jdt.core.prefs
+.project
+.classpath
